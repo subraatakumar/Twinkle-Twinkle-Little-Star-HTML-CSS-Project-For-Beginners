@@ -12,4 +12,4 @@ The CSS concepts used are :
 </ul>  
 
 # Output
-<img src="https://github.com/subratsir/Twinkle-Twinkle-Little-Star-HTML-CSS-Project-For-Beginners/blob/main/twinkle.PNG">
+<img src="https://github.com/subratsir/Twinkle-Twinkle-Little-Star-HTML-CSS-Project-For-Beginners/blob/main/Twinkle.gif">
