@@ -10,3 +10,6 @@ The CSS concepts used are :
   <li>transform rotate</li>
   <li>run animation for infinite number of times</li>
 </ul>  
+
+# Output
+<img src="https://github.com/subratsir/Twinkle-Twinkle-Little-Star-HTML-CSS-Project-For-Beginners/blob/main/twinkle.PNG">
