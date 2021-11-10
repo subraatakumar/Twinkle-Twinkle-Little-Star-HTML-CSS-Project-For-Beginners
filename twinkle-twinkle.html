@@ -1,0 +1,106 @@
+<style>
+  body {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
+  }
+  
+.stars {
+  margin: 50px 0;
+  position: relative;
+  display: inline-block;
+  color: white;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid white;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+  transform:scale(0.2);
+}
+.stars:before {
+  border-bottom: 80px solid white;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+.stars:after {
+  position: absolute;
+  display: block;
+  color: red;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid white;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+.twinkle1{
+	animation-name:twinkle1;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+@keyframes twinkle1{
+	50%{ transform:scale(0.01) rotate(50deg); opacity:0.1; }
+}
+.twinkle2{
+	transform:scale(0.15);
+	animation-name:twinkle2;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+}
+@keyframes twinkle2{
+	20%{ transform:scale(0.01) rotate(50deg); opacity:0.1; }
+}
+.twinkle3{
+	transform:scale(0.25);
+	animation-name:twinkle3;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+}
+@keyframes twinkle3{
+	20%{ transform:scale(0.01) rotate(50deg); opacity:0.1; }
+}
+.twinkle4{
+	transform:scale(0.18);
+	animation-name:twinkle4;
+	animation-duration:2.5s;
+	animation-iteration-count:infinite;
+}
+@keyframes twinkle4{
+	20%{ transform:scale(0.01) rotate(50deg); opacity:0.1;}
+}
+</style>
+<div class="stars twinkle1"></div>
+<div class="stars twinkle2"></div>
+<div class="stars twinkle3"></div>
+<div class="stars twinkle2"></div>
+<div class="stars twinkle4"></div>
+<div class="stars twinkle1"></div>
+<div class="stars twinkle2"></div>
+<div class="stars twinkle4"></div>
+<div class="stars twinkle3"></div>
+<div class="stars twinkle3"></div>
+<div class="stars twinkle4"></div>
+<div class="stars twinkle1"></div>
+<div class="stars twinkle1"></div>
+<div class="stars twinkle4"></div>
+<div class="stars twinkle3"></div>
+<div class="stars twinkle2"></div>
+<div class="stars twinkle4"></div>
+<div class="stars twinkle1"></div>
